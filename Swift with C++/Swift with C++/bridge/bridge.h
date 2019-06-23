@@ -13,6 +13,7 @@
 
 @interface bridge : NSObject
 -(void) greet: (NSString *)person;
+-(NSString*) readfile: (NSString *) address;
 @end
 
 #endif /* bridge_hpp */

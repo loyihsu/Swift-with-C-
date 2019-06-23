@@ -6,7 +6,6 @@
 //  Copyright © 2019 Loyiworks. All rights reserved.
 //
 
-
 #include "interface.h"
 
 std::string cppstringFrom(NSString* str) {
