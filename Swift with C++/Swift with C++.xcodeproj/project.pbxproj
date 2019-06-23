@@ -12,6 +12,7 @@
 		FF29BCDE22BF6A3400EC9410 /* interface.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF29BCDC22BF6A3400EC9410 /* interface.mm */; };
 		FF29BCE122BF6A4B00EC9410 /* functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF29BCDF22BF6A4B00EC9410 /* functions.cpp */; };
 		FF29BCE522BF6CD900EC9410 /* readfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF29BCE322BF6CD900EC9410 /* readfile.cpp */; };
+		FF29BCE822BF703700EC9410 /* accessFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29BCE722BF703700EC9410 /* accessFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		FF29BCE022BF6A4B00EC9410 /* functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functions.hpp; sourceTree = "<group>"; };
 		FF29BCE322BF6CD900EC9410 /* readfile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = readfile.cpp; sourceTree = "<group>"; };
 		FF29BCE422BF6CD900EC9410 /* readfile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = readfile.hpp; sourceTree = "<group>"; };
+		FF29BCE722BF703700EC9410 /* accessFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FF29BCD922BF690F00EC9410 /* bridge.mm */,
 				FF29BCDA22BF690F00EC9410 /* bridge.h */,
 				FF29BCD822BF690F00EC9410 /* Swift with C++-Bridging-Header.h */,
+				FF29BCE722BF703700EC9410 /* accessFunctions.swift */,
 			);
 			path = bridge;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				FF29BCDB22BF690F00EC9410 /* bridge.mm in Sources */,
 				FF29BCD022BF68B600EC9410 /* main.swift in Sources */,
 				FF29BCDE22BF6A3400EC9410 /* interface.mm in Sources */,
+				FF29BCE822BF703700EC9410 /* accessFunctions.swift in Sources */,
 				FF29BCE522BF6CD900EC9410 /* readfile.cpp in Sources */,
 				FF29BCE122BF6A4B00EC9410 /* functions.cpp in Sources */,
 			);
