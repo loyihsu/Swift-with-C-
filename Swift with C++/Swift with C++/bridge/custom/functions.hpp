@@ -13,4 +13,6 @@
 
 void hello(std::string person);
 
+/* Declare your normal C++ functions here */
+
 #endif /* functions_hpp */

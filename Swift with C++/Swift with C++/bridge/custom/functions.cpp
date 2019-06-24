@@ -8,6 +8,9 @@
 
 #include "functions.hpp"
 
+/// A simple "Hello world" function with C++ std::cout
 void hello(std::string person) {
     std::cout << "Hello " << person << "!" << std::endl;
 }
+
+/* Implement your normal C++ functions here */

@@ -8,6 +8,7 @@
 
 #include "readfile.hpp"
 
+/// A function to read file at address (std::string) with C++ ifstream
 std::string readfile(std::string address) {
     std::ifstream input;
     std::string output = "", temp= "";

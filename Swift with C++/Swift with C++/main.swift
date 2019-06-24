@@ -8,8 +8,8 @@
 
 import Foundation
 
+// Initialize "bridge" and use the functions implemented in C++
 let brdg = bridge.init()
 
 brdg.greet("Stranger")
-
-printFileContent(brdg.readfile("/Users/loyihsu/Gits/Github/Swift-with-C++/Swift with C++/Swift with C++/main.swift"))
+printFileContent(brdg.readfile("<#File Location#>"))
